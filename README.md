@@ -25,14 +25,6 @@ We investigate these questions using two medical imaging datasets:
 ## Code
 
 The code for this project is organized as follows:
-
-* `data/`: Contains the datasets used in the experiments (or scripts to download them).  [Provide more details about data format and preprocessing.]
-* `models/`: Contains the code for loading and using the VLMs. [Specify the VLMs used, e.g., CLIP, BioViL, etc.]
-* `scripts/`: Contains the scripts for running the experiments, including:
-    * `run_experiments.py`: Main script for running the experiments with different prompt configurations. [Explain how to run the script and the available command-line arguments.]
-    * `evaluate.py`: Script for evaluating the model performance and calculating fairness metrics. [Specify the metrics used, e.g., AUC, sensitivity, specificity, demographic parity, etc.]
-    * `create_prompts.py`: Script for generating different ICL prompts with varying demographic compositions. [Explain the prompt generation strategy.]
-* `notebooks/`: Contains Jupyter notebooks for analysis and visualization of the results. [Optional: Include notebooks for exploring the data and results.]
 * `requirements.txt`: List of required Python packages.
 
 ## Getting Started
@@ -42,11 +34,6 @@ The code for this project is organized as follows:
    git clone [https://github.com/](https://github.com/)[your-username]/[repository-name].git
 
 2. **Create a virtual environment (recommended):**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Linux/macOS
-   venv\Scripts\activate  # On Windows
-   ```
 
 3. **Install the required packages:**
    ```bash
@@ -56,9 +43,6 @@ The code for this project is organized as follows:
 4. **Download the datasets:** [Provide instructions on how to download or access the datasets.]
 
 5. **Run the experiments:**
-   ```bash
-   python scripts/run_experiments.py [arguments]
-   ```
 
 ## Results
 
